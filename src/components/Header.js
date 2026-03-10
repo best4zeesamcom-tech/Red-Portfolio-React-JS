@@ -6,19 +6,19 @@ function Header() {
 
   return (
     <header>
-      <a href="#" className="logo">Alex</a>
+      <button href="#" className="logo">Alex</button>
 
       <div id="menu-icon" onClick={() => setActive(!active)}>
         {active ? <FaXmark /> : <FaBars />}
       </div>
 
       <nav className={active ? "active" : ""}>
-        <a href="#" className="active">Home</a>
-        <a href="#">Services</a>
-        <a href="#">Skills</a>
-        <a href="#">Education</a>
-        <a href="#">Experience</a>
-        <a href="#">Contact</a>
+        <button href="#" className="active">Home</button>
+        <button href="#">Services</button>
+        <button href="#">Skills</button>
+        <button href="#">Education</button>
+        <button href="#">Experience</button>
+        <button href="#">Contact</button>
       </nav>
     </header>
   );
