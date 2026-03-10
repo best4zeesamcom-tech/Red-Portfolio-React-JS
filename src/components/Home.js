@@ -29,13 +29,13 @@ function Home() {
           dolores esse. Odit similique doloribus tenetur doloremque.
         </p>
 
-        <a href="#" className="btn">Hire me</a>
+        <button className="btn">Hire me</button>
 
         <div className="social-icons">
-          <a href="#"><FaLinkedin /></a>
-          <a href="#"><FaGithub /></a>
-          <a href="#"><FaXTwitter /></a>
-          <a href="#"><FaInstagram /></a>
+          <button><FaLinkedin /></button>
+          <button><FaGithub /></button>
+          <button><FaXTwitter /></button>
+          <button><FaInstagram /></button>
         </div>
       </div>
 
