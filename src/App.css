@@ -48,7 +48,7 @@ header{
     transform: scale(1.1);
 }
 
-nav a{
+nav button{
     font-size: 1.8rem;
     color: white;
     margin-left: 4rem;
@@ -57,8 +57,8 @@ nav a{
     border-bottom: 3px solid transparent;
 }
 
-nav a:hover,
-nav a.active{
+nav button:hover,
+nav button.active{
     color: hwb(0 0% 0%);
     border-bottom: 3px solid hwb(0 0% 0%);
 }
@@ -117,7 +117,7 @@ span{
     font-weight: 500;
 }
 
-.social-icons a{
+.social-icons button{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -245,7 +245,7 @@ span{
         right: 0;
     }
 
-    nav a{
+    nav button{
         font-size: 2.2rem;
         margin: 0;
     }
